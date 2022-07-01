@@ -16,7 +16,7 @@ Extensions that can be added to the calculator CLI are `*.py` files that are pla
 * The name of the file dictates the name of the operation.
 * The file should contain a function with the following signature:
     * `def command(args: List[float]) -> float`
-    * A decorator of type `@func_args` with the number of arguments allowed - e.g: @func_args(number_of_args=1)
+    * A decorator of type `@func_args` with the number of arguments allowed - e.g: `@func_args(number_of_args=1)`
     
 _See `src/plugins/square.py` for an example._
 
